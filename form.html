@@ -6,60 +6,137 @@
     <title>Reg-Form</title>
 </head>
 <body>
+<table  >
     <form action="">
-
+<tr>
+    <td>
         <label for="F_name">First Name</lable>
-        <input type="text" name="" >
-        <br/>
+    </td>
+    <td>
+        <input type="text" name="" value="ABC" >
+    </td>
+</tr>
+<tr>
+    <td>
         <label for="l_name">Last Name</label>
-        <input type="text" name="Last name" id="">
-        <br/>
+    </td>
+<td>
+    <input type="text" name="Last name" id="">
+</td>
+    <br/>
+</tr>
+<tr>
+    <td>
         <label for="email">Email</label>
-        <input type="email" name="email" id="">
-        <br/>
+    </td>
+<td>
+
+    <input type="email" name="email" id="">
+</td>
+    
+</tr>
+<tr>
+    <td>
+
         <label for="id">Id</label>
-        <input type="number" name="Id" id="">
-        <br/>
+    </td>
+<td>
+
+    <input type="number" name="Id" id="">
+</td>
+
+</tr>
+<tr>
+    <td>
         <label for="pass">Password</label>
+    </td>
+    <td>
         <input type="password" name="password" value="123456">
-        <br/>
+    </td>
+
+
+</tr>
+<tr>
+    <td>
         <p>Gender</p>
-        <label>Male</label>        
+    </td>
+    <td>
         <input type="radio" value="Male">
-        <label>Female</label>
+        <label>Male</label>        
         <input type="radio" value="Female">
-        <label>Others</label>
+        <label>Female</label>
         <input type="radio" value="Others">
-        <br/>
+            <label>Others</label>
+    </td>
+</tr>
+<tr>
+    <td>
         <p for="skills">skills</p>
-        <label>ReactJs<label>
+    </td>
+    <td>
         <input type="checkbox" name="reactJs" id="" >
+        <label>ReactJs<label>
+            <input type="checkbox" name="nextJs" id="" >
         <label>NextJs</label>
-        <input type="checkbox" name="nextJs" id="" >
-        <label>HonoJs</label>
         <input type="checkbox" name="honoJs" id="" >
-        <br/>
+        <label>HonoJs</label>
+    </td>
+</tr>
+<tr>
+    <td>
         <p>Address</p>
+    </td>
+    <td>
         <textarea id="add" name="Address" rows="4" cols="50">
         Kuratoli, Dhaka, Bangladesh   
         </textarea>
-        <br/>
-        <label for="">Department</label>
-        <select name="dept" id="">
-            <option value="">CSE</option>
-            <option value="">BBA</option>
-        </select>
-        <br/>
-        <label for="dob">Date of Birth</label>
-        <input type="datetime-local" name="dob" id="">
+    </td>
+</tr>
+<tr>
+<td>
+    <label for="">Department</label>
+</td>
+<td>
+    <select name="dept" id="">
+        <option value="">CSE</option>
+        <option value="">EEE</option>
+        <option value="">BBA</option>
+        <option value=""></option>
+    </select>
+</td>
+</tr>
+    <tr>
+        <td>
+            <label for="dob">Date of Birth</label>
+        </td>
+        <td>
+            <input type="datetime-local" name="dob" id="">
+        </td>
 
-        <br/>
+    </tr>
+<tr>
+
+    <td>
         <label for="img">Image</label>
-        <input type="file" name="img" id="">
-        <br/>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
+    </td>
+    <td>
+
+        <input type="file" name="img" id="">
+    </td>
+</tr>
+    
+<tr>
+<td>
+
+    <button type="submit">Submit</button>
+</td>
+<td>
+
+    <button type="reset">Reset</button>
+</td>
+</tr>
+</table>
     </form>
 </body>
 </html>
