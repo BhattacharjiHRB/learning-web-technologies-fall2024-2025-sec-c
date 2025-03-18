@@ -12,3 +12,10 @@
 2. Registration page
 3. Home page
 4. Forgot Password page
+
+###### Lab Task
+
+1. Add Product page
+2. Display Product page
+3. Edit Product page
+4. Delete Product page
