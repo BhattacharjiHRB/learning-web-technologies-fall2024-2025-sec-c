@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        button{
+            width: 40px;
+            height: 40px;
+            padding: 5x;
+            margin: 1px;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    
+        <div>
+            <input type="text" id="res" readonly style="width: 160px; height: 45px; ">
+        </div>
+        <div style="margin-top: 25px ; padding: 10px; justify-content: center; ">
+            <button onclick="num('0')">0</button>
+            <button onclick="num('1')">1</button>
+            <button onclick="num('2')">2</button>
+           <br/>
+           <button onclick="num('3')">3</button>
+           <button onclick="num('4')">4</button>
+           <button onclick="num('5')">5</button>
+           <br/>
+           <button onclick="num('6')">6</button>
+           <button onclick="num('7')">7</button>
+           <button onclick="num('8')">8</button>
+           <br/>
+           <button onclick="num('9')">9</button>
+           <button onclick="num('+')">+</button>
+           <button onclick="num('-')">-</button>
+           <br/>
+           <button onclick="num('*')">x</button>
+           <button onclick="num('/')">/</button>
+           <button onclick="num('%')">%</button>
+           <br>
+           <button onclick="calc()">=</button>
+           
+           <button onclick="c()">clear</button>
+        </div>
+    
+</body>
+<script src="calc.js"></script>
+</html>
